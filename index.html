@@ -8,7 +8,7 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="./favicon.png" sizes="32x32">
 </head>
-<body onload="window.alert('Aviso:\nEsta página está definitivamente confundida sobre exactamente a que región va dirigida.\n\nPróximamente versiones en Español | English');">
+<body>
 	<div class="container" style="height: 24px;background-image: url(./img/banner-jun01.png)">
 	</div>
 	<div class="container">
@@ -147,7 +147,67 @@
 					<div class="media-body">
 			    		<h4 class="mt-0 bg-dark text-white">Diplomados</h4>
 			    		<p class="text-justify">En curso pero no limitado al material ofrecido en el sitio. Es complementado con otros recursos en línea. Próximamente certificación.</p>
+			    		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Detalle</button>
 			    	</div>
+			    	<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="diplomados" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header bg-info">
+					        <h5 class="modal-title text-white" id="diplomados">Diplomados</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					      	<div class="media">
+					      		<img class="align-self-center mr-5" src="./img/big_data.png">
+					      	<div class="media-body">
+					        <h5>Técnico Big Data</h5>
+							<div class="progress">
+							  <div class="progress-bar bg-warning" 
+							  	   role="progressbar" 
+							  	   style="width: 83%;" 
+							  	   aria-valuenow="83" 
+							  	   aria-valuemin="0" 
+							  	   aria-valuemax="100">83%</div>
+							</div>
+						    </div>
+						    </div>
+						    <hr>
+						    <div class="media">
+					      		<img class="align-self-center mr-5" src="./img/web_developement.png">
+					      	<div class="media-body">
+					        <h5>Desarrollador Web</h5>
+							<div class="progress">
+							  <div class="progress-bar bg-warning" 
+							  	   role="progressbar" 
+							  	   style="width: 85%;" 
+							  	   aria-valuenow="85" 
+							  	   aria-valuemin="0" 
+							  	   aria-valuemax="100">85%</div>
+							</div>
+						    </div>
+						    </div>
+						    <hr>
+						    <div class="media">
+					      		<img class="align-self-center mr-5" src="./img/dtsi.png">
+					      	<div class="media-body">
+					        <h5>Técnico Sistemas informáticos</h5>
+							<div class="progress">
+							  <div class="progress-bar bg-success" 
+							  	   role="progressbar" 
+							  	   style="width: 99%;" 
+							  	   aria-valuenow="99" 
+							  	   aria-valuemin="0" 
+							  	   aria-valuemax="100">99%</div>
+							</div>
+						    </div>
+						    </div>
+						  </div>
+					    </div>
+					  </div>
+					</div>
 			    </div>
 				</div>
 
